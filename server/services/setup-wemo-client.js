@@ -10,7 +10,7 @@ const storeWemoDeviceClient = deviceClient => deviceClients.set(deviceClient.dev
 
 const discoverDevices = () => (
 	wemo.discover((_, deviceInfo) => {
-		logger.log('Wemo Device Found: %j', deviceInfo.friendlyName)
+		logger.log('Wemo Device Found: %s %j', deviceInfo.host, deviceInfo.friendlyName)
 
 		if (!deviceInfo) return
 
