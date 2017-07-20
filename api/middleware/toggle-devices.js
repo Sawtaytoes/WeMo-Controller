@@ -10,9 +10,10 @@ const getDeviceClient = deviceClients => deviceName => deviceClients.get(deviceN
 
 const isPoweredOff = state => Number(state) === POWERED_OFF
 const getNextState = deviceClientStates => (
-	deviceClientStates
-	.map(Number)
-	.every(isPoweredOff)
+	Number(
+		deviceClientStates
+		.every(isPoweredOff)
+	)
 )
 
 const getCurrentState = deviceClient => (
