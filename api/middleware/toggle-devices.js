@@ -1,7 +1,7 @@
 const Promise = require('bluebird')
 
-const dir = require(`${global.baseDir}/global-dirs`)
-const logger = require(`${dir.utils}/logger`)
+const dir = require(`${global.baseDir}global-dirs`)
+const logger = require(`${dir.utils}logger`)
 
 const POWERED_OFF = 0
 const POWERED_ON = 1
