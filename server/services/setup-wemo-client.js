@@ -30,8 +30,6 @@ const onDeviceDiscovery = wemo => (_, deviceInfo) => {
 
 		const deviceClient = wemo.client(deviceInfo)
 
-		console.log(deviceInfo);
-
 		deviceClient
 		.on('binaryState', logBinaryStateChange(deviceInfo))
 		.on('error', logError)
