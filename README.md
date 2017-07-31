@@ -47,8 +47,6 @@ module.exports = {
 }
 ```
 
-> *NOTE:* `apiToken` is required to cache groups and scenes from LIFX's HTTP API.
-
 #### Override Default Config
 
 To override these configs, create a `./server/configs/config.js` file and have it return an object with overrides like so:
