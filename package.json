@@ -21,7 +21,6 @@
     "express": "^4.15.5",
     "express-sslify": "^1.2.0",
     "helmet": "^3.8.1",
-    "isomorphic-fetch": "^2.2.1",
     "node-fetch": "^1.7.3",
     "wemo-client": "^0.14.0"
   },
