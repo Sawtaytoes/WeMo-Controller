@@ -1,3 +1,5 @@
+**NOTE:** This repo has moved to https://github.com/Sawtaytoes/Smart-Home-Services
+
 # WeMo SSDP LAN Controller
 
 Allows toggling WeMo devices using the SSDP LAN API. This allows the use of Flic buttons to control WeMo devices without the need for a phone. Just pair them with a device running the Flic SDK and have it fire requests at this HTTP server.
